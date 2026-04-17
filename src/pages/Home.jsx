@@ -7,7 +7,7 @@ const Home = () => {
             {/* Hero Section */}
             <section className="hero" style={{
                 height: '100vh',
-                background: `linear-gradient(rgba(10,10,10,0.5), rgba(10,10,10,0.9)), url('/assets/images/hero.png') center/cover no-repeat`,
+                background: `linear-gradient(rgba(10,10,10,0.5), rgba(10,10,10,0.9)), url('/GameZone/assets/images/hero.png') center/cover no-repeat`,
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -33,7 +33,7 @@ const Home = () => {
                 <div className="container reveal">
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '50px', alignItems: 'center' }}>
                         <div className="intro-image">
-                            <img src="/assets/images/arcade.png" alt="Arcade Zone" style={{ borderRadius: '15px', boxShadow: '0 10px 40px rgba(0,0,0,0.5)', border: '2px solid var(--accent-color)' }} />
+                            <img src="/GameZone/assets/images/arcade.png" alt="Arcade Zone" style={{ borderRadius: '15px', boxShadow: '0 10px 40px rgba(0,0,0,0.5)', border: '2px solid var(--accent-color)' }} />
                         </div>
                         <div className="intro-text">
                             <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Level Up Your <span className="text-gradient">Entertainment</span></h2>
@@ -59,7 +59,7 @@ const Home = () => {
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
 
                         <div className="activity-card reveal" style={{ background: 'var(--bg-card)', borderRadius: '15px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.05)' }}>
-                            <img src="/assets/images/bowling.png" alt="Neon Bowling" style={{ width: '100%', height: '250px', objectFit: 'cover', borderBottom: '3px solid var(--secondary-color)' }} />
+                            <img src="/GameZone/assets/images/bowling.png" alt="Neon Bowling" style={{ width: '100%', height: '250px', objectFit: 'cover', borderBottom: '3px solid var(--secondary-color)' }} />
                             <div className="activity-info" style={{ padding: '20px' }}>
                                 <h3 style={{ fontSize: '1.5rem', marginBottom: '10px' }}>Neon Bowling</h3>
                                 <p style={{ color: 'var(--text-muted)', marginBottom: '15px' }}>Experience bowling in a whole new light with our glowing fluorescent lanes and energetic vibe.</p>
@@ -68,7 +68,7 @@ const Home = () => {
                         </div>
 
                         <div className="activity-card reveal" style={{ transitionDelay: '0.1s', background: 'var(--bg-card)', borderRadius: '15px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.05)' }}>
-                            <img src="/assets/images/trampoline.png" alt="Trampoline Park" style={{ width: '100%', height: '250px', objectFit: 'cover', borderBottom: '3px solid var(--secondary-color)' }} />
+                            <img src="/GameZone/assets/images/trampoline.png" alt="Trampoline Park" style={{ width: '100%', height: '250px', objectFit: 'cover', borderBottom: '3px solid var(--secondary-color)' }} />
                             <div className="activity-info" style={{ padding: '20px' }}>
                                 <h3 style={{ fontSize: '1.5rem', marginBottom: '10px' }}>Trampoline Park</h3>
                                 <p style={{ color: 'var(--text-muted)', marginBottom: '15px' }}>Defy gravity in our huge indoor trampoline arena complete with neon lighting and jump activities.</p>
@@ -77,7 +77,7 @@ const Home = () => {
                         </div>
 
                         <div className="activity-card reveal" style={{ transitionDelay: '0.2s', background: 'var(--bg-card)', borderRadius: '15px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.05)' }}>
-                            <img src="/assets/images/arcade.png" alt="Retro Arcade" style={{ width: '100%', height: '250px', objectFit: 'cover', borderBottom: '3px solid var(--secondary-color)' }} />
+                            <img src="/GameZone/assets/images/arcade.png" alt="Retro Arcade" style={{ width: '100%', height: '250px', objectFit: 'cover', borderBottom: '3px solid var(--secondary-color)' }} />
                             <div className="activity-info" style={{ padding: '20px' }}>
                                 <h3 style={{ fontSize: '1.5rem', marginBottom: '10px' }}>Arcade Zone</h3>
                                 <p style={{ color: 'var(--text-muted)', marginBottom: '15px' }}>Challenge yourself on classic and modern arcade machines packed with high-score thrills.</p>

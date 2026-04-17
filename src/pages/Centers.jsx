@@ -15,7 +15,7 @@ const Centers = () => {
                 <div className="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '40px' }}>
 
                     <div className="center-card reveal" style={{ background: 'var(--bg-card)', borderRadius: '20px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.05)' }}>
-                        <img src="/assets/images/hero.png" alt="Downtown Center" style={{ width: '100%', height: '250px', objectFit: 'cover', borderBottom: '3px solid var(--primary-color)' }} />
+                        <img src="/GameZone/assets/images/hero.png" alt="Downtown Center" style={{ width: '100%', height: '250px', objectFit: 'cover', borderBottom: '3px solid var(--primary-color)' }} />
                         <div className="center-info" style={{ padding: '30px' }}>
                             <h2 style={{ fontSize: '1.8rem', marginBottom: '15px', color: 'var(--text-light)' }}>Downtown Megaplex</h2>
                             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '15px', marginBottom: '15px', color: 'var(--text-muted)' }}>
@@ -35,7 +35,7 @@ const Centers = () => {
                     </div>
 
                     <div className="center-card reveal" style={{ transitionDelay: '0.1s', background: 'var(--bg-card)', borderRadius: '20px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.05)' }}>
-                        <img src="/assets/images/arcade.png" alt="Westside Center" style={{ width: '100%', height: '250px', objectFit: 'cover', borderBottom: '3px solid var(--primary-color)' }} />
+                        <img src="/GameZone/assets/images/arcade.png" alt="Westside Center" style={{ width: '100%', height: '250px', objectFit: 'cover', borderBottom: '3px solid var(--primary-color)' }} />
                         <div className="center-info" style={{ padding: '30px' }}>
                             <h2 style={{ fontSize: '1.8rem', marginBottom: '15px', color: 'var(--text-light)' }}>Westside Arcade</h2>
                             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '15px', marginBottom: '15px', color: 'var(--text-muted)' }}>
@@ -55,7 +55,7 @@ const Centers = () => {
                     </div>
 
                     <div className="center-card reveal" style={{ transitionDelay: '0.2s', background: 'var(--bg-card)', borderRadius: '20px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.05)' }}>
-                        <img src="/assets/images/bowling.png" alt="Northside Arena" style={{ width: '100%', height: '250px', objectFit: 'cover', borderBottom: '3px solid var(--primary-color)' }} />
+                        <img src="/GameZone/assets/images/bowling.png" alt="Northside Arena" style={{ width: '100%', height: '250px', objectFit: 'cover', borderBottom: '3px solid var(--primary-color)' }} />
                         <div className="center-info" style={{ padding: '30px' }}>
                             <h2 style={{ fontSize: '1.8rem', marginBottom: '15px', color: 'var(--text-light)' }}>Northside Arena</h2>
                             <div style={{ display: 'flex', alignItems: 'flex-start', gap: '15px', marginBottom: '15px', color: 'var(--text-muted)' }}>

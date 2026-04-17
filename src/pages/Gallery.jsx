@@ -48,12 +48,12 @@ const Gallery = () => {
                     .gallery-item:hover .gallery-overlay h3 { transform: translateY(0); }
                 `}</style>
                 <div className="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px' }}>
-                    <div className="gallery-item reveal"><img src="/assets/images/hero.png" className="gallery-img" alt="" /><div className="gallery-overlay"><h3>Main Arena</h3></div></div>
-                    <div className="gallery-item reveal" style={{ transitionDelay: '0.1s' }}><img src="/assets/images/bowling.png" className="gallery-img" alt="" /><div className="gallery-overlay"><h3>Neon Bowling</h3></div></div>
-                    <div className="gallery-item reveal" style={{ transitionDelay: '0.2s' }}><img src="/assets/images/trampoline.png" className="gallery-img" alt="" /><div className="gallery-overlay"><h3>Trampoline Park</h3></div></div>
-                    <div className="gallery-item reveal"><img src="/assets/images/arcade.png" className="gallery-img" alt="" /><div className="gallery-overlay"><h3>Retro Arcade</h3></div></div>
-                    <div className="gallery-item reveal" style={{ transitionDelay: '0.1s' }}><img src="/assets/images/hero.png" className="gallery-img" alt="" /><div className="gallery-overlay"><h3>Kids Zone</h3></div></div>
-                    <div className="gallery-item reveal" style={{ transitionDelay: '0.2s' }}><img src="/assets/images/arcade.png" className="gallery-img" alt="" /><div className="gallery-overlay"><h3>VR Setup</h3></div></div>
+                    <div className="gallery-item reveal"><img src="/GameZone/assets/images/hero.png" className="gallery-img" alt="" /><div className="gallery-overlay"><h3>Main Arena</h3></div></div>
+                    <div className="gallery-item reveal" style={{ transitionDelay: '0.1s' }}><img src="/GameZone/assets/images/bowling.png" className="gallery-img" alt="" /><div className="gallery-overlay"><h3>Neon Bowling</h3></div></div>
+                    <div className="gallery-item reveal" style={{ transitionDelay: '0.2s' }}><img src="/GameZone/assets/images/trampoline.png" className="gallery-img" alt="" /><div className="gallery-overlay"><h3>Trampoline Park</h3></div></div>
+                    <div className="gallery-item reveal"><img src="/GameZone/assets/images/arcade.png" className="gallery-img" alt="" /><div className="gallery-overlay"><h3>Retro Arcade</h3></div></div>
+                    <div className="gallery-item reveal" style={{ transitionDelay: '0.1s' }}><img src="/GameZone/assets/images/hero.png" className="gallery-img" alt="" /><div className="gallery-overlay"><h3>Kids Zone</h3></div></div>
+                    <div className="gallery-item reveal" style={{ transitionDelay: '0.2s' }}><img src="/GameZone/assets/images/arcade.png" className="gallery-img" alt="" /><div className="gallery-overlay"><h3>VR Setup</h3></div></div>
                 </div>
             </section>
         </main>

@@ -29,7 +29,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className="about-image" style={{ borderRadius: '20px', overflow: 'hidden', border: '2px solid var(--secondary-color)', boxShadow: '0 0 30px rgba(0, 240, 255, 0.2)' }}>
-                        <img src="/assets/images/hero.png" alt="About King of Games" />
+                        <img src="/GameZone/assets/images/hero.png" alt="About King of Games" />
                     </div>
                 </div>
             </section>
