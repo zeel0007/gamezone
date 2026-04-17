@@ -37,13 +37,13 @@ const Contact = () => {
                     <div className="contact-info-wrap reveal" style={{ transitionDelay: '0.1s' }}>
                         <div className="info-card">
                             <i className="fa-solid fa-location-dot"></i>
-                            <div><h3>Headquarters</h3><p style={{ color: 'var(--text-muted)', marginTop: '10px' }}>123 Neon Avenue, Downtown District<br />New York, NY 10001</p></div>
+                            <div><h3>Headquarters</h3><p style={{ color: 'var(--text-muted)', marginTop: '10px' }}>Kumar Pacific Mall,<br />Shankar Sheth Road, Pune</p></div>
                         </div>
                         <div className="info-card">
                             <i className="fa-solid fa-phone"></i>
-                            <div><h3>Phone Number</h3><p style={{ color: 'var(--text-muted)', marginTop: '10px' }}>+1 (555) 123-4567<br />Support: Mon-Sun 9AM - 10PM</p></div>
+                            <div><h3>Contact Numbers</h3><p style={{ color: 'var(--text-muted)', marginTop: '10px' }}>+91 8888201888<br />+91 8600997587</p></div>
                         </div>
-                        <iframe className="map-embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25279986985!2d-74.1444878!3d40.6976637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1689025000000!5m2!1sen!2sus" allowFullScreen="" loading="lazy" title="Location Map"></iframe>
+                        <iframe className="map-embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15132.895318180775!2d73.8682054!3d18.5188052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c040d3470701%3A0xeabcfc1ab9a9b71e!2sKumar%20Pacific%20Mall!5e0!3m2!1sen!2sin!4v1689025000000!5m2!1sen!2sin" allowFullScreen="" loading="lazy" title="Location Map"></iframe>
                     </div>
                 </div>
             </section>
